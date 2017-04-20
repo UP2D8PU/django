@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{%load staticfiles%}
+
+{% block content %}
+<head>
+	<title>&#966DBACK - login</title> 
+	<link rel="stylesheet" type="text/css" href="{% static "core/css/styles.css" %}">          
+	
+</head>
+  <h2>Welcome, {{ user.username }}!</h2>
+{% endblock %}

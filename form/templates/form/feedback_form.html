@@ -1,0 +1,18 @@
+{% load staticfiles %}
+
+ <head>
+	<link rel="stylesheet" type="text/css" href="{% static "form/css/styleForm.css" %}">
+</head>
+{% block body %}
+<form action="{% url 'form:home' %}" method="POST">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <input type="submit" />
+</form>
+
+<div class="hot-container">
+	<p>
+		<a href='/startHome' class="btn">Homepage</a>
+	</p>
+</div>
+{% endblock %}

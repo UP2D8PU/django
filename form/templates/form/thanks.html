@@ -1,0 +1,18 @@
+{% load staticfiles %}
+ <head>
+	<link rel="stylesheet" type="text/css" href="{% static "form/css/styleSingleP.css" %}">
+</head>
+{% block body %}
+<h1>Thank you for your feedback!</h1>
+<div class="hot-container" style="text-align: center; margin: auto">
+	<p>
+		<a href='/form' class="btn">New feedback form</a>
+	</p>
+</div>
+<div class="hot-container">
+	<p>
+		<a href='/startHome' class="btn">Homepage</a>
+	</p>
+</div>
+
+{% endblock %}

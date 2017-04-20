@@ -1,0 +1,18 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <title>{% block title %}{% endblock %}</title>
+	<link rel="stylesheet" type="text/css" href="{% static "form/css/styles.css" %}">
+</head>
+<body>
+{% block body %}{% endblock %}
+<div class="hot-container">
+	<p>
+		<a href='/startHome' class="btn">Homepage</a>
+	</p>
+</div>
+</body>
+</html>

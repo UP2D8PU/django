@@ -1,0 +1,23 @@
+{% load staticfiles %}
+<head>
+	<title>&#966DBACK - polls</title> 
+	<link rel="stylesheet" type="text/css" href="{% static "polls/css/styles.css" %}">          
+	
+</head>
+<body>
+{% if latest_poll_list %}
+    <ul>
+    {% for poll in latest_poll_list %}
+		<li><a href="{% url 'polls:detail' poll.id %}">{{ poll.question }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No polls are available.</p>
+{% endif %}
+
+<div class="hot-container">
+	<p>
+		<a href='/startHome' class="btn">Homepage</a>
+	</p>
+</div>
+</body>
