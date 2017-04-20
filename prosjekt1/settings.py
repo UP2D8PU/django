@@ -27,7 +27,7 @@ SECRET_KEY = 'ja62$q2a4i2had8*5pgu&&xj)dzsqcap$=sd7m66b69amqiti#'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['test2-phidback.herokuapp.com']
 
 
 # Application definition
