@@ -1,0 +1,68 @@
+body {
+        background-image: url("../images/ferdig.jpg");
+        
+        background-repeat: no-repeat;
+    	background-attachment: fixed;
+    	background-position: center;
+}
+
+form {
+    text-align: center;
+    background: rgba(215, 238, 242, .7);
+    width: 35%;
+    margin: 0 auto;
+}
+
+header{
+    text-align: center;
+}
+h1{
+    text-align: center;
+}   
+
+h2{
+    text-align: center;
+} 
+
+input[type=text], input[type=password] {
+    display: block;
+    margin: 0 0 1em 0;
+    margin: auto;
+    width: 30%; 
+    border: 1px solid #818181;
+    padding: 5px;
+}
+.hot-container p { margin-top: 10px; }
+a { text-decoration: none; margin: 0 10px; }
+
+.hot-container {
+    min-height: 100px;
+    margin-top: 15%;
+    width: 100%;
+    text-align: center;
+}
+
+a.btn {
+    display: inline-block;
+    color: #666;
+    background-color: #eee;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 12px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-bottom-width: 3px;
+}
+
+    a.btn:hover {
+        background-color: #e3e3e3;
+        border-color: rgba(0,0,0,0.5);
+    }
+    
+    a.btn:active {
+        background-color: #CCC;
+        border-color: rgba(0,0,0,0.9);
+    }
